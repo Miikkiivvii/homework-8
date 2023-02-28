@@ -7,4 +7,4 @@ if ($_POST['userName'] !== '') {
 }  
 
 $path = $_SERVER["HTTP_HOST"];
-header("Location: https://${path}/index.php");
+header("Location: http://${path}/index.php");
